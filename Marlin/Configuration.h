@@ -15,6 +15,9 @@
 #define STRING_CONFIG_H_AUTHOR "Tinker 18.11" // Who made the changes.
 #endif
 
+// we only have Ultimaker 2+ printers
+#define UM2PLUS
+
 // SERIAL_PORT selects which serial port should be used for communication with the host.
 // This allows the connection of wireless adapters (for instance) to non-default port pins.
 // Serial port 0 is still used by the Arduino bootloader regardless of this setting.

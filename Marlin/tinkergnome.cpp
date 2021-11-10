@@ -205,12 +205,12 @@ void tinkergnome_init()
             lcd_contrast = 0xDF;
     } else
     {
-        ui_mode = UI_MODE_EXPERT;
+        ui_mode = UI_SCROLL_ENTRY;
         led_sleep_brightness = 0;
         lcd_sleep_contrast = 0;
         led_sleep_glow = 0;
         led_timeout = 0;
-        lcd_timeout = 0;
+        lcd_timeout = 5;
         lcd_contrast = 0xDF;
         SET_UI_MODE(ui_mode);
         SET_SLEEP_BRIGHTNESS(led_sleep_brightness);
